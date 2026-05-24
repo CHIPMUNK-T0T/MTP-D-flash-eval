@@ -1,0 +1,8 @@
+Explain policies for attracting startups to regional cities in the following format.
+
+- Divide into 8 sections
+- Explain each section in 2-3 sentences
+- Cover infrastructure, talent, education, administration, funding, community, relocation support, and tourism integration
+- Add a summary at the end
+
+Use headings and write concretely for practitioners.

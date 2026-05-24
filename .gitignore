@@ -1,0 +1,10 @@
+.claude/
+.antigravitycli/
+__pycache__/
+*.pyc
+*.tmp
+*.lock
+.benchmark.lock/
+.mtp_compare.lock/
+results/logs/
+results/metrics/

@@ -1,0 +1,3 @@
+config_id,label,quantization,spec_method,num_speculative_tokens,workload,max_tokens,max_num_batched_tokens,status,median_elapsed_ms,median_tok_per_s,draft_tokens,accepted_tokens,acceptance_rate,startup_seconds,notes
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,medium,256,4096,ok,3640.0000,70.3297,1920,635,0.3307,135,
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,long,512,4096,ok,7253.0000,70.5915,3855,1285,0.3333,135,

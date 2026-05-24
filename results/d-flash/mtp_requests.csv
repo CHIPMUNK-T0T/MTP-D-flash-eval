@@ -1,0 +1,11 @@
+config_id,label,quantization,spec_method,num_speculative_tokens,workload,max_tokens,run_index,elapsed_ms,completion_tokens,tok_per_s,status
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,medium,256,1,3648,256,70.1754,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,medium,256,2,3635,256,70.4264,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,medium,256,3,3640,256,70.3297,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,medium,256,4,3646,256,70.2139,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,medium,256,5,3640,256,70.3297,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,long,512,1,7238,512,70.7378,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,long,512,2,7259,512,70.5331,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,long,512,3,7253,512,70.5915,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,long,512,4,7253,512,70.5915,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,long,512,5,7251,512,70.6110,ok

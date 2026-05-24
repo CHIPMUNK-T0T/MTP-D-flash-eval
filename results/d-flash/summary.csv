@@ -1,0 +1,5 @@
+config_id,label,quantization,dflash,num_speculative_tokens,workload,max_tokens,max_num_batched_tokens,status,median_elapsed_ms,median_tok_per_s,draft_tokens,accepted_tokens,acceptance_rate,startup_seconds,notes
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,4096,ok,4281.0000,59.7991,,,,135,
+Base-FP8,FP8 baseline,fp8,no,0,long,512,4096,ok,8538.0000,59.9672,,,,135,
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,medium,256,4096,ok,4077.0000,62.7913,12000,480,0.0400,140,
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,long,512,4096,ok,7213.0000,70.9829,21300,1140,0.0535,140,

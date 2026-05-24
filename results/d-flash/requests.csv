@@ -1,0 +1,21 @@
+config_id,label,quantization,dflash,num_speculative_tokens,workload,max_tokens,run_index,elapsed_ms,completion_tokens,tok_per_s,status
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,1,4260,256,60.0939,ok
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,2,4285,256,59.7433,ok
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,3,4291,256,59.6598,ok
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,4,4281,256,59.7991,ok
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,5,4267,256,59.9953,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,1,8514,512,60.1362,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,2,8539,512,59.9602,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,3,8527,512,60.0446,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,4,8538,512,59.9672,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,5,8538,512,59.9672,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,medium,256,1,4077,256,62.7913,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,medium,256,2,4061,256,63.0387,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,medium,256,3,4076,256,62.8067,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,medium,256,4,4095,256,62.5153,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,medium,256,5,4082,256,62.7144,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,long,512,1,7200,512,71.1111,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,long,512,2,7229,512,70.8258,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,long,512,3,7224,512,70.8749,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,long,512,4,7213,512,70.9829,ok
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,yes,15,long,512,5,7208,512,71.0322,ok

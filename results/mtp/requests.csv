@@ -1,0 +1,121 @@
+config_id,label,quantization,mtp,num_speculative_tokens,workload,max_tokens,run_index,elapsed_ms,completion_tokens,tok_per_s,status
+Base-FP16,FP16 baseline,fp16,no,0,medium,256,1,2205,256,116.0998,ok
+Base-FP16,FP16 baseline,fp16,no,0,medium,256,2,2219,256,115.3673,ok
+Base-FP16,FP16 baseline,fp16,no,0,medium,256,3,2216,256,115.5235,ok
+Base-FP16,FP16 baseline,fp16,no,0,medium,256,4,2232,256,114.6953,ok
+Base-FP16,FP16 baseline,fp16,no,0,medium,256,5,2219,256,115.3673,ok
+Base-FP16,FP16 baseline,fp16,no,0,long,512,1,4403,512,116.2844,ok
+Base-FP16,FP16 baseline,fp16,no,0,long,512,2,4408,512,116.1525,ok
+Base-FP16,FP16 baseline,fp16,no,0,long,512,3,4427,512,115.6539,ok
+Base-FP16,FP16 baseline,fp16,no,0,long,512,4,4422,512,115.7847,ok
+Base-FP16,FP16 baseline,fp16,no,0,long,512,5,4415,512,115.9683,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,medium,256,1,2026,256,126.3574,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,medium,256,2,2020,256,126.7327,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,medium,256,3,2025,256,126.4198,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,medium,256,4,2034,256,125.8604,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,medium,256,5,2024,256,126.4822,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,long,512,1,3833,512,133.5768,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,long,512,2,3835,512,133.5072,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,long,512,3,3836,512,133.4724,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,long,512,4,3857,512,132.7457,ok
+MTP-FP16-n1,FP16 MTP n=1,fp16,yes,1,long,512,5,3850,512,132.9870,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,medium,256,1,2134,256,119.9625,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,medium,256,2,2139,256,119.6821,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,medium,256,3,2141,256,119.5703,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,medium,256,4,2146,256,119.2917,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,medium,256,5,2135,256,119.9063,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,long,512,1,4243,512,120.6693,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,long,512,2,4247,512,120.5557,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,long,512,3,4244,512,120.6409,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,long,512,4,4261,512,120.1596,ok
+MTP-FP16-n3,FP16 MTP n=3,fp16,yes,3,long,512,5,4271,512,119.8782,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,medium,256,1,2716,256,94.2563,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,medium,256,2,2726,256,93.9105,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,medium,256,3,2709,256,94.4998,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,medium,256,4,2729,256,93.8073,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,medium,256,5,2716,256,94.2563,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,long,512,1,5619,512,91.1194,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,long,512,2,5623,512,91.0546,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,long,512,3,5618,512,91.1356,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,long,512,4,5617,512,91.1519,ok
+MTP-FP16-n5,FP16 MTP n=5,fp16,yes,5,long,512,5,5622,512,91.0708,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,medium,256,1,1563,256,163.7876,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,medium,256,2,1584,256,161.6162,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,medium,256,3,1581,256,161.9228,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,medium,256,4,1583,256,161.7183,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,medium,256,5,1581,256,161.9228,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,long,512,1,3107,512,164.7892,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,long,512,2,3129,512,163.6306,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,long,512,3,3121,512,164.0500,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,long,512,4,3127,512,163.7352,ok
+Base-AWQ4,AWQ4 baseline,awq4,no,0,long,512,5,3121,512,164.0500,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,medium,256,1,1420,256,180.2817,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,medium,256,2,1410,256,181.5603,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,medium,256,3,1424,256,179.7753,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,medium,256,4,1428,256,179.2717,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,medium,256,5,1418,256,180.5360,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,long,512,1,2943,512,173.9721,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,long,512,2,2962,512,172.8562,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,long,512,3,2962,512,172.8562,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,long,512,4,2956,512,173.2070,ok
+MTP-AWQ4-n1,AWQ4 MTP n=1,awq4,yes,1,long,512,5,2961,512,172.9146,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,medium,256,1,1690,256,151.4793,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,medium,256,2,1694,256,151.1216,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,medium,256,3,1709,256,149.7952,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,medium,256,4,1695,256,151.0324,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,medium,256,5,1706,256,150.0586,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,long,512,1,3632,512,140.9692,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,long,512,2,3648,512,140.3509,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,long,512,3,3640,512,140.6593,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,long,512,4,3661,512,139.8525,ok
+MTP-AWQ4-n3,AWQ4 MTP n=3,awq4,yes,3,long,512,5,3643,512,140.5435,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,medium,256,1,2190,256,116.8950,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,medium,256,2,2203,256,116.2052,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,medium,256,3,2193,256,116.7351,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,medium,256,4,2193,256,116.7351,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,medium,256,5,2203,256,116.2052,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,long,512,1,4705,512,108.8204,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,long,512,2,4717,512,108.5436,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,long,512,3,4725,512,108.3598,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,long,512,4,4726,512,108.3369,ok
+MTP-AWQ4-n5,AWQ4 MTP n=5,awq4,yes,5,long,512,5,4731,512,108.2224,ok
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,1,2058,256,124.3926,ok
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,2,2089,256,122.5467,ok
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,3,2094,256,122.2541,ok
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,4,2093,256,122.3125,ok
+Base-FP8,FP8 baseline,fp8,no,0,medium,256,5,2095,256,122.1957,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,1,4101,512,124.8476,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,2,4132,512,123.9109,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,3,4137,512,123.7612,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,4,4133,512,123.8810,ok
+Base-FP8,FP8 baseline,fp8,no,0,long,512,5,4134,512,123.8510,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,medium,256,1,1778,256,143.9820,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,medium,256,2,1785,256,143.4174,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,medium,256,3,1794,256,142.6979,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,medium,256,4,1789,256,143.0967,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,medium,256,5,1795,256,142.6184,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,long,512,1,3452,512,148.3198,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,long,512,2,3475,512,147.3381,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,long,512,3,3477,512,147.2534,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,long,512,4,3476,512,147.2957,ok
+MTP-FP8-n1,FP8 MTP n=1,fp8,yes,1,long,512,5,3470,512,147.5504,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,medium,256,1,2265,256,113.0243,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,medium,256,2,2276,256,112.4780,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,medium,256,3,2272,256,112.6761,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,medium,256,4,2276,256,112.4780,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,medium,256,5,2273,256,112.6265,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,long,512,1,3886,512,131.7550,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,long,512,2,3898,512,131.3494,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,long,512,3,3915,512,130.7791,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,long,512,4,3906,512,131.0804,ok
+MTP-FP8-n3,FP8 MTP n=3,fp8,yes,3,long,512,5,3905,512,131.1140,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,medium,256,1,2893,256,88.4895,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,medium,256,2,2905,256,88.1239,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,medium,256,3,2890,256,88.5813,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,medium,256,4,2890,256,88.5813,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,medium,256,5,2896,256,88.3978,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,long,512,1,5086,512,100.6685,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,long,512,2,5102,512,100.3528,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,long,512,3,5122,512,99.9610,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,long,512,4,5112,512,100.1565,ok
+MTP-FP8-n5,FP8 MTP n=5,fp8,yes,5,long,512,5,5114,512,100.1173,ok

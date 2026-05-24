@@ -1,0 +1,7 @@
+config_id,label,quantization,spec_method,num_speculative_tokens,workload,max_tokens,max_num_batched_tokens,status,median_elapsed_ms,median_tok_per_s,speedup_vs_baseline,speedup_vs_dflash,draft_tokens,accepted_tokens,acceptance_rate,startup_seconds,notes
+Base-FP8,FP8 baseline,fp8,none,0,long,512,4096,ok,8538.0000,59.9672,1.0000,0.8448,,,,135,
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,dflash,15,long,512,4096,ok,7213.0000,70.9829,1.1837,1.0000,21300,1140,0.0535,140,
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,long,512,4096,ok,7253.0000,70.5915,1.1772,0.9945,3855,1285,0.3333,135,
+Base-FP8,FP8 baseline,fp8,none,0,medium,256,4096,ok,4281.0000,59.7991,1.0000,0.9523,,,,135,
+DFlash-FP8-n15,FP8 D-Flash n=15,fp8,dflash,15,medium,256,4096,ok,4077.0000,62.7913,1.0500,1.0000,12000,480,0.0400,140,
+MTP-FP8-n3,FP8 MTP n=3,fp8,mtp,3,medium,256,4096,ok,3640.0000,70.3297,1.1761,1.1201,1920,635,0.3307,135,

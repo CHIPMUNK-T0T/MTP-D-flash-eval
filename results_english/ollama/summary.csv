@@ -1,0 +1,3 @@
+engine,model,workload,max_tokens,status,median_total_duration_ms,median_eval_tok_per_s,median_total_tok_per_s,median_prompt_tok_per_s,notes
+ollama,qwen35-2b-bench,medium,256,ok,1830.5199,158.3969,139.8510,4437.2410,
+ollama,qwen35-2b-bench,long,512,ok,3542.8656,158.0618,144.5158,5637.3383,

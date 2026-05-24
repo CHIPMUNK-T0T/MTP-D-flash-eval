@@ -1,0 +1,21 @@
+# A Practitioner's Guide to Implementing Generative AI in Local Government
+
+Implementing Generative AI (GenAI) in local government is not merely a technological upgrade; it is a strategic shift in how public services are delivered, data is managed, and citizen trust is built. Unlike the private sector, local governments operate under strict legal frameworks, limited budgets, and a mandate to serve diverse populations equitably. This guide provides a step-by-step framework for practitioners to navigate this transition responsibly.
+
+---
+
+### 1. Clarifying the Purpose of Adoption
+Before writing a single line of code or purchasing a subscription, local officials must define *why* they are adopting GenAI. The goal should not be "AI for the sake of AI," but rather solving specific, high-impact problems where automation can reduce manual labor, improve accuracy, or enhance accessibility.
+
+*   **Practitioner Focus:** Align AI initiatives with existing strategic plans (e.g., reducing permit processing times, improving disability accessibility, or streamlining code enforcement). Avoid broad, vague mandates like "modernize our office."
+*   **Concrete Example:**
+    *   *Scenario:* A city council wants to reduce the backlog of building permit applications.
+    *   *Clarified Purpose:* Instead of a general "AI initiative," the purpose is defined as: "Deploy an LLM-powered triage system to automatically extract data from uploaded permit drawings, flag missing documents, and draft initial review comments for staff, reducing manual data entry time by 40%."
+
+### 2. Drafting Internal Guidelines
+Local governments must establish clear policies regarding the use of GenAI tools. These guidelines should cover acceptable use, intellectual property rights, and the prohibition of using AI to generate official legal documents or policy without human review.
+
+*   **Practitioner Focus:** Create a "Do's and Don'ts" list specific to public sector constraints. Explicitly state that AI outputs cannot be cited as facts in public records without verification. Establish a chain of custody for any data entered into AI models.
+*   **Concrete Example:**
+    *   *Policy Draft:* The City of Oakwood adopts a "GenAI Usage Charter."
+    *   *Key Clause:* "Staff are prohibited from using public AI models to draft final zoning ordinances or legal contracts. All AI-generated text must be reviewed by a designated legal officer and marked as 'draft only' before any public distribution. Personal resident data must never be input into external, unsecured AI platforms

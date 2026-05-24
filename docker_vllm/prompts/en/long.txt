@@ -1,0 +1,17 @@
+Write a detailed practitioner-oriented guide on the following topic.
+
+Topic:
+How local governments should approach implementing generative AI
+
+Requirements:
+- Clarifying the purpose of adoption
+- Drafting internal guidelines
+- Security and personal data protection
+- Budgeting and procurement
+- Designing a PoC
+- Evaluation metrics
+- Staff training
+- Common failure points
+- Long-term operations
+
+Add a heading to each section, include a concrete example per section, and finish with an overall summary.
