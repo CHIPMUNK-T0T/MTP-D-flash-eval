@@ -1,0 +1,9 @@
+framework,config_id,backend,model,max_model_len,max_num_batched_tokens_or_chunked_prefill,kv_cache_dtype,cuda_graph,linear_attn_backend,priority,status,notes
+vllm,V0,auto,RedHatAI/Qwen3.5-4B-FP8-dynamic,2048,4096,auto,default,default,1,pending,auto-selected backend確認用
+vllm,V1,flash_attn,RedHatAI/Qwen3.5-4B-FP8-dynamic,2048,4096,auto,enforce_eager,default,1,smoke_ok,RTX4070で起動確認済み
+vllm,V2,flashinfer,RedHatAI/Qwen3.5-4B-FP8-dynamic,2048,4096,auto,enforce_eager,default,1,smoke_ok,起動確認済み
+vllm,V3,triton_attn,RedHatAI/Qwen3.5-4B-FP8-dynamic,2048,4096,auto,enforce_eager,default,1,smoke_ok,起動確認済み
+sglang,S0,auto,RedHatAI/Qwen3.5-4B-FP8-dynamic,2048,4096,auto,default,default,1,pending,auto-selected backend確認用
+sglang,S1,flashinfer,RedHatAI/Qwen3.5-4B-FP8-dynamic,2048,4096,auto,default,default,1,smoke_ok,起動確認済み
+sglang,S2,triton,RedHatAI/Qwen3.5-4B-FP8-dynamic,2048,4096,auto,default,default,1,smoke_ok,起動確認済み
+sglang,S3,fa3,RedHatAI/Qwen3.5-4B-FP8-dynamic,2048,4096,auto,disable_cuda_graph,default,2,smoke_ok_with_caveat,default CUDA graph は失敗。補助扱い
