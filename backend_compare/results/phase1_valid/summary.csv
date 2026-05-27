@@ -1,0 +1,8 @@
+config_id,framework,backend,label,workload,prompt_tokens,max_tokens,warmup_runs_excluded,measured_runs,kv_cache_dtype,max_num_batched_tokens,gpu_memory_utilization,context_length,mem_fraction_static,chunked_prefill_size,disable_cuda_graph,status,median_elapsed_ms,median_tok_per_s,startup_seconds,notes
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,short_ctx512,,256,1,5,auto,4096,0.93,8192,,,,startup_failed,,,900,see logs/vllm_flash_attn_startup.log
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,mid_ctx2048,,512,1,5,auto,4096,0.93,8192,,,,startup_failed,,,900,see logs/vllm_flash_attn_startup.log
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,long_ctx8192,,512,1,5,auto,4096,0.93,8192,,,,startup_failed,,,900,see logs/vllm_flash_attn_startup.log
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,short_ctx512,538,256,1,5,auto,4096,0.93,8192,,,,ok,4303,59.49337671392052,135,
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,mid_ctx2048,2135,512,1,5,auto,4096,0.93,8192,,,,ok,8809,58.12237484390964,135,
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,1,5,auto,4096,0.93,8192,,,,ok,9736,52.58833196384552,135,
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,short_ctx512,538,256,1,5,auto,4096,0.93,8192,,,,ok,4292,59.64585274930103,135,

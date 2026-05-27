@@ -1,0 +1,6 @@
+config_id,framework,backend,label,workload,prompt_tokens,max_tokens,warmup_runs_excluded,measured_runs,kv_cache_dtype,max_num_batched_tokens,gpu_memory_utilization,context_length,mem_fraction_static,chunked_prefill_size,disable_cuda_graph,status,median_elapsed_ms,median_tok_per_s,startup_seconds,notes
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,long_ctx8192,7395,512,1,5,auto,4096,0.93,8192,,,,ok,9751,52.507435134857964,130,
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,1,5,auto,4096,0.93,8192,,,,ok,9727,52.63698982214454,140,
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,long_ctx8192,7395,512,1,5,auto,4096,0.93,8192,,,,ok,9782,52.34103455326109,140,
+sglang_flashinfer,sglang,flashinfer,SGLang flashinfer,long_ctx8192,7395,512,1,5,,,,8192,0.85,,0,ok,7589,67.46606931084465,75,
+sglang_triton,sglang,triton,SGLang triton,long_ctx8192,7395,512,1,5,,,,8192,0.85,,0,ok,7651,66.91935694680434,80,

@@ -1,0 +1,62 @@
+{
+  "model": "RedHatAI/Qwen3.5-4B-FP8-dynamic",
+  "prompt_file": "/home/ubuntu/Desktop/D-flash-eval/backend_compare/prompts/ctx2048.txt",
+  "prompt_tokens": 2135,
+  "max_tokens": 512,
+  "warmup_runs_excluded": 1,
+  "measured_runs": 5,
+  "median_elapsed_ms": 7252,
+  "median_tok_per_s": 70.60121345835631,
+  "warmups": [
+    {
+      "run_index": 1,
+      "elapsed_ms": 7607,
+      "prompt_tokens": 2135,
+      "completion_tokens": 512,
+      "total_tokens": 2647
+    }
+  ],
+  "runs": [
+    {
+      "run_index": 1,
+      "elapsed_ms": 7252,
+      "prompt_tokens": 2135,
+      "completion_tokens": 512,
+      "total_tokens": 2647,
+      "tok_per_s": 70.60121345835631
+    },
+    {
+      "run_index": 2,
+      "elapsed_ms": 7254,
+      "prompt_tokens": 2135,
+      "completion_tokens": 512,
+      "total_tokens": 2647,
+      "tok_per_s": 70.58174800110284
+    },
+    {
+      "run_index": 3,
+      "elapsed_ms": 7251,
+      "prompt_tokens": 2135,
+      "completion_tokens": 512,
+      "total_tokens": 2647,
+      "tok_per_s": 70.61095021376362
+    },
+    {
+      "run_index": 4,
+      "elapsed_ms": 7254,
+      "prompt_tokens": 2135,
+      "completion_tokens": 512,
+      "total_tokens": 2647,
+      "tok_per_s": 70.58174800110284
+    },
+    {
+      "run_index": 5,
+      "elapsed_ms": 7250,
+      "prompt_tokens": 2135,
+      "completion_tokens": 512,
+      "total_tokens": 2647,
+      "tok_per_s": 70.62068965517241
+    }
+  ],
+  "status": "ok"
+}

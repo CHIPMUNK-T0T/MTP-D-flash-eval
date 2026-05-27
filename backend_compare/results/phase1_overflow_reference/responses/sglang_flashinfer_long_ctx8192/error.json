@@ -1,0 +1,6 @@
+{
+  "status": "error",
+  "message": "{\"object\":\"error\",\"message\":\"The input (8284 tokens) is longer than the model's context length (8192 tokens).\",\"type\":\"BadRequestError\",\"param\":null,\"code\":400}",
+  "prompt_file": "/home/ubuntu/Desktop/D-flash-eval/backend_compare/prompts/ctx8192.txt",
+  "max_tokens": 512
+}

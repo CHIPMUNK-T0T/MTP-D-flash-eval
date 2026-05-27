@@ -1,0 +1,16 @@
+config_id,framework,backend,label,workload,prompt_tokens,max_tokens,warmup_runs_excluded,measured_runs,kv_cache_dtype,max_num_batched_tokens,gpu_memory_utilization,context_length,mem_fraction_static,chunked_prefill_size,disable_cuda_graph,status,median_elapsed_ms,median_tok_per_s,startup_seconds,notes
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,short_ctx512,538,256,1,5,auto,4096,0.93,8192,,,,ok,4305,59.465737514518004,135,
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,mid_ctx2048,2135,512,1,5,auto,4096,0.93,8192,,,,ok,8811,58.10918170468732,135,
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,long_ctx8192,,512,1,5,auto,4096,0.93,8192,,,,request_failed,,,135,see responses/vllm_flash_attn_long_ctx8192
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,short_ctx512,538,256,1,5,auto,4096,0.93,8192,,,,ok,4302,59.5072059507206,135,
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,mid_ctx2048,2135,512,1,5,auto,4096,0.93,8192,,,,ok,8808,58.12897366030881,135,
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,,512,1,5,auto,4096,0.93,8192,,,,request_failed,,,135,see responses/vllm_flashinfer_long_ctx8192
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,short_ctx512,538,256,1,5,auto,4096,0.93,8192,,,,ok,4294,59.61807172799255,135,
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,mid_ctx2048,2135,512,1,5,auto,4096,0.93,8192,,,,ok,8788,58.26126536185708,135,
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,long_ctx8192,,512,1,5,auto,4096,0.93,8192,,,,request_failed,,,135,see responses/vllm_triton_attn_long_ctx8192
+sglang_flashinfer,sglang,flashinfer,SGLang flashinfer,short_ctx512,538,256,1,5,,,,8192,0.85,,0,ok,3643,70.27175404886083,80,
+sglang_flashinfer,sglang,flashinfer,SGLang flashinfer,mid_ctx2048,2135,512,1,5,,,,8192,0.85,,0,ok,7266,70.46518029176988,80,
+sglang_flashinfer,sglang,flashinfer,SGLang flashinfer,long_ctx8192,,512,1,5,,,,8192,0.85,,0,request_failed,,,80,see responses/sglang_flashinfer_long_ctx8192
+sglang_triton,sglang,triton,SGLang triton,short_ctx512,538,256,1,5,,,,8192,0.85,,0,ok,3630,70.52341597796143,80,
+sglang_triton,sglang,triton,SGLang triton,mid_ctx2048,2135,512,1,5,,,,8192,0.85,,0,ok,7252,70.60121345835631,80,
+sglang_triton,sglang,triton,SGLang triton,long_ctx8192,,512,1,5,,,,8192,0.85,,0,request_failed,,,80,see responses/sglang_triton_long_ctx8192

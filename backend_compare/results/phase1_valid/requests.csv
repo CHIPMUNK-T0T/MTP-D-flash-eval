@@ -1,0 +1,21 @@
+config_id,framework,backend,label,workload,prompt_tokens,max_tokens,run_index,elapsed_ms,completion_tokens,total_tokens,tok_per_s,status
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,short_ctx512,538,256,1,4300,256,794,59.5349,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,short_ctx512,538,256,2,4303,256,794,59.4934,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,short_ctx512,538,256,3,4303,256,794,59.4934,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,short_ctx512,538,256,4,4302,256,794,59.5072,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,short_ctx512,538,256,5,4303,256,794,59.4934,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,mid_ctx2048,2135,512,1,8825,512,2647,58.0170,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,mid_ctx2048,2135,512,2,8809,512,2647,58.1224,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,mid_ctx2048,2135,512,3,8809,512,2647,58.1224,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,mid_ctx2048,2135,512,4,8810,512,2647,58.1158,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,mid_ctx2048,2135,512,5,8808,512,2647,58.1290,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,1,9736,512,7907,52.5883,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,2,9736,512,7907,52.5883,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,3,9736,512,7907,52.5883,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,4,9734,512,7907,52.5991,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,5,9734,512,7907,52.5991,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,short_ctx512,538,256,1,4292,256,794,59.6459,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,short_ctx512,538,256,2,4292,256,794,59.6459,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,short_ctx512,538,256,3,4292,256,794,59.6459,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,short_ctx512,538,256,4,4292,256,794,59.6459,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,short_ctx512,538,256,5,4293,256,794,59.6320,ok

@@ -1,0 +1,26 @@
+config_id,framework,backend,label,workload,prompt_tokens,max_tokens,run_index,elapsed_ms,completion_tokens,total_tokens,tok_per_s,status
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,long_ctx8192,7395,512,1,9748,512,7907,52.5236,ok
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,long_ctx8192,7395,512,2,9751,512,7907,52.5074,ok
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,long_ctx8192,7395,512,3,9751,512,7907,52.5074,ok
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,long_ctx8192,7395,512,4,9757,512,7907,52.4751,ok
+vllm_flash_attn,vllm,flash_attn,vLLM flash_attn,long_ctx8192,7395,512,5,9753,512,7907,52.4967,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,1,9726,512,7907,52.6424,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,2,9724,512,7907,52.6532,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,3,9729,512,7907,52.6262,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,4,9729,512,7907,52.6262,ok
+vllm_flashinfer,vllm,flashinfer,vLLM flashinfer,long_ctx8192,7395,512,5,9727,512,7907,52.6370,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,long_ctx8192,7395,512,1,9779,512,7907,52.3571,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,long_ctx8192,7395,512,2,9782,512,7907,52.3410,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,long_ctx8192,7395,512,3,9782,512,7907,52.3410,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,long_ctx8192,7395,512,4,9783,512,7907,52.3357,ok
+vllm_triton_attn,vllm,triton_attn,vLLM triton_attn,long_ctx8192,7395,512,5,9782,512,7907,52.3410,ok
+sglang_flashinfer,sglang,flashinfer,SGLang flashinfer,long_ctx8192,7395,512,1,7589,512,7907,67.4661,ok
+sglang_flashinfer,sglang,flashinfer,SGLang flashinfer,long_ctx8192,7395,512,2,7589,512,7907,67.4661,ok
+sglang_flashinfer,sglang,flashinfer,SGLang flashinfer,long_ctx8192,7395,512,3,7596,512,7907,67.4039,ok
+sglang_flashinfer,sglang,flashinfer,SGLang flashinfer,long_ctx8192,7395,512,4,7588,512,7907,67.4750,ok
+sglang_flashinfer,sglang,flashinfer,SGLang flashinfer,long_ctx8192,7395,512,5,7593,512,7907,67.4305,ok
+sglang_triton,sglang,triton,SGLang triton,long_ctx8192,7395,512,1,7646,512,7907,66.9631,ok
+sglang_triton,sglang,triton,SGLang triton,long_ctx8192,7395,512,2,7651,512,7907,66.9194,ok
+sglang_triton,sglang,triton,SGLang triton,long_ctx8192,7395,512,3,7658,512,7907,66.8582,ok
+sglang_triton,sglang,triton,SGLang triton,long_ctx8192,7395,512,4,7650,512,7907,66.9281,ok
+sglang_triton,sglang,triton,SGLang triton,long_ctx8192,7395,512,5,7660,512,7907,66.8407,ok
